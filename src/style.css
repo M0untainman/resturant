@@ -1,3 +1,6 @@
+body{
+    background-image: url(./Bob-Burgers-Zoom-Background.webp);
+}
 #btnHolder{
     display: flex;
     align-content: center;
@@ -11,13 +14,15 @@
     font-weight: 1000;
 }
 
-#content{
-    background-color: #E8D71E;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    color: #E8292F;
-    border-style: solid;
-    border-width: 0.2rem;
-    border-color: #E8292F;
+.menuContainer{
+    width: 10rem;
+    height: 15rem;
+    min-height: 15rem;
+    border-style: outset;
+    border-color: #BF504F;
+    background-color: #747980;
+    border-width: 1rem;
+    color: #DCE1E6;
+    margin: 2rem;
 }
 
